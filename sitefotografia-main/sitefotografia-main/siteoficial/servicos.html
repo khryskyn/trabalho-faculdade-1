@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CKcompany</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
+    <link rel="stylesheet" href="/siteoficial/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-xl">
+            <a class="navbar-brand" href="/siteoficial/page.html">CK company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="/siteoficial/servicos.html">Serviços</a>
+                    <a class="nav-link active" aria-current="page" href="/siteoficial/cadastro.html">Cadastro</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="cardpai">
+            <div class="card">
+                <img src="/siteoficial/img/aniversario1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title h1card">Aniversário</h5>
+                    <p class="card-text p2card">$20 por foto e acima de 30 fotos você ganha um desconto de 10%</p>
+                    <a href="#" class="btn btn-custom btncard" onclick="contratarServico('Aniversário')">Contratar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/siteoficial/img/casamento1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title h1card">Casamento</h5>
+                <p class="card-text p2card">$30 por foto e acima de 30 fotos você ganha um desconto de 15%</p>
+                <a href="#" class="btn btn-custom btncard" onclick="contratarServico('Aniversário')" >Contratar</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/siteoficial/img/BabyParty1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title h1card">Baby Party</h5>
+                <p class="card-text p2card">$15 por foto e acima de 20 fotos você ganha um desconto de 10%</p>
+                <a href="#" class="btn btn-custom btncard"  onclick="contratarServico('Aniversário')">Contratar</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/siteoficial/img/EnsaioShow1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title h1card">Show</h5>
+                <p class="card-text p2card">$10 por foto e acima de 50 fotos você ganha um desconto de 10%</p>
+                <a href="#" class="btn btn-custom btncard" onclick="contratarServico('Aniversário')" >Contratar</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/siteoficial/img/Filme1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title h1card">Filme</h5>
+                <p class="card-text p2card">$20 por foto e acima de 30 fotos você ganha um desconto de 10%</p>
+                <a href="#" class="btn btn-custom btncard" onclick="contratarServico('Aniversário')" >Contratar</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/siteoficial/img/Takes4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title h1card">Takes</h5>
+                <p class="card-text p2card">$5 por foto e acima de 30 fotos você ganha um desconto de 20%</p>
+                <a href="#" class="btn btn-custom btncard" onclick="contratarServico('Aniversário')" >Contratar</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/siteoficial/img/ContraLuz1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title h1card">ContraLuz</h5>
+                <p class="card-text p2card">$10 por foto e acima de 20 fotos você ganha um desconto de 10%</p>
+                <a href="#" class="btn btn-custom btncard" onclick="contratarServico('Aniversário')" >Contratar</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/siteoficial/img/Light Painting.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title h1card">Light Painting</h5>
+                <p class="card-text p2card">$15 por foto e acima de 15 fotos você ganha um desconto de 5%</p>
+                <a href="#" class="btn btn-custom btncard" onclick="contratarServico('Aniversário')" >Contratar</a>
+              </div>
+              
+            <!-- Outras cartas aqui -->
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="h1">A sua vida merece as melhores lembranças</h1>
+        <p class="p1">#VivaAsRecordações</p>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <span class="text-muted">© CK company</span>
+            <div class="text-center">
+                <a class="ms-2 btn btn-redondo btn-social btn-dark text-white" href="#"><i class="bi bi-facebook"></i></a>
+                <a class="ms-2 btn btn-redondo btn-social btn-dark text-white" href="#"><i class="bi bi-instagram"></i></a>
+                <a class="ms-2 btn btn-redondo btn-social btn-dark text-white" href="#"><i class="bi bi-pinterest"></i></a>
+                <a class="ms-2 btn btn-redondo btn-social btn-dark text-white" href="#"><i class="bi bi-tiktok"></i></a>
+                <a class="ms-2 btn btn-redondo btn-social btn-dark text-white" href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function contratarServico(servico) {
+            alert("Você contratou o serviço de " + servico);
+        }
+    </script>
+
+</body>
+
+</html>
+git remote add origin https://github.com/khryskyn/trabalho-faculdade-1.git
+git branch -M main
+git push -u origin main
